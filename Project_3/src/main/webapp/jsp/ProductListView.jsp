@@ -20,7 +20,7 @@
 	src="<%=ORSView.APP_CONTEXT%>/js/CheckBox11.js"></script>
 <style>
 .hm {
-	background-image: url('<%=ORSView.APP_CONTEXT%>/img/list2.jpg');
+	background-image: url('<%=ORSView.APP_CONTEXT%>/img/user1.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -107,13 +107,13 @@
 
 			<div class="row">
 
-<div class="col-sm-2"></div>
+				<div class="col-sm-2"></div>
 				<div class="col-sm-2">
 					<input type="text" name="productName"
 						placeholder="Enter productName" class="form-control"
 						value="<%=ServletUtility.getParameter("productName", request)%>">
 				</div>
-				
+
 				&emsp;
 				<div class="col-sm-2">
 					<input type="text" name="productAmmount"
@@ -135,8 +135,8 @@
 					<font color="red" class="pl-sm-5"> <%=ServletUtility.getErrorMessage("productCategory", request)%></font></br>
 				</div>
 				&emsp;
-				
-				
+
+
 
 				<div class="col-sm-2">
 					<input type="submit" class="btn btn-primary btn-md"
