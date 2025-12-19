@@ -27,7 +27,7 @@ body {
 	<div class="text-cs1" style="text-align: center;">
 
 		<h1 style="padding-top: 15%; color: red; font-size: 50px;">
-			<b>Welcome To Online Result System 26-11</b>
+			<b>Welcome To Online Result System 19-12-2025</b>
 		</h1>
 
 	</div>
