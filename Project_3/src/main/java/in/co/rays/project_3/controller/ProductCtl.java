@@ -135,7 +135,6 @@ public class ProductCtl extends BaseCtl {
 
 	@Override
 	protected String getView() {
-		// TODO Auto-generated method stub
 		return ORSView.PRODUCT_VIEW;
 	}
 

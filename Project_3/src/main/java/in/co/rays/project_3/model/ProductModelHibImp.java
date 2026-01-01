@@ -165,7 +165,7 @@ public class ProductModelHibImp implements ProductModelInt {
 
 	@Override
 	public ProductDTO findByPK(long pk) throws ApplicationException {
-		System.out.println("======" + pk + "----------------------------------");
+		System.out.println("======" + pk + "---------------------------------");
 		Session session = null;
 		ProductDTO dto = null;
 		try {
